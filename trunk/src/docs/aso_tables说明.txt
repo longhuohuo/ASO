@@ -1,0 +1,155 @@
+实现页面：
+    1). 实时热搜词---实时热搜榜
+	2). 生成 AppStore_Base_HotWords
+
+1. AppStore_Base_HotSearch(基础表)
+    --|hotword      key
+    --|ranking
+    --|country      key
+    --|device       key
+    --|resultcount
+    --|updatetime   key
+    #来自 es.hotsearch_words
+=====================================================
+
+实现页面：
+	1). 实时热搜词---热搜词上榜总时长TOP20
+	2). 实时热搜词---Keyword上榜记录
+
+2. AppStore_Statistic_HotSearch(结果表)
+	--|hotword     key
+    --|country     key
+    --|device      key
+	--|starttime   key
+    --|endtime
+    --|duration
+    --|day         key
+    #来自 AppStore_Base_HotWords
+
+------------------------------------------------------
+实现页面：
+	1). 实时热搜词---热搜词上榜总时长TOP 20下面的那个表格
+
+3. Appstore_Hotsearch_Agrr(按时间聚合)
+	--|updatetime  key
+    --|hotwords    key  concat_ws('#$',RANKING,HOTWORD)
+    --|country     key
+    --|device      key
+    --|day
+	#来自 AppStore_Base_HotWords
+
+======================================================
+
+实现页面：
+	1)实时热搜词---当前Top10搜索结果
+
+4. AppStore_Current_Top10_App_Results
+    --|hotword     key
+    --|ranking     key
+    --|genreNames      类别名(mysql中的映射表)
+    --|appname
+    --|appid
+    --|country     key
+    --|device      key
+    --|day          key
+    --|appimg 		 applogo
+    --|companyname
+    --|updatetime
+    #来自 es.hotsearch_top100
+
+======================================================
+
+实现页面：
+	1)实时热搜词---当前Top10相关关键词(联想词表)
+
+5. AppStore_Current_Top10_Related_HotSearch
+    --|relatedword  key
+    --|hotword
+    --|ranking      key
+    --|country      key
+    --|device       key
+    --|day          key
+    --|updatetime
+    --|searchindex    搜索指数 priority
+    --|hotword_resultcount
+	#来自es.hotsearch_related    AppStore_Base_HotSearch
+
+======================================================
+
+实现页面：
+	1)APP排行
+
+6. AppStore_App_Top100
+    --|appid        key
+    --|appname
+    --|appimg   es.app_detail
+    --|ranking
+    --|country      key
+    --|device       key
+    --|listcategory key   榜单
+    --|appcategory  key   类别
+    --|companyname
+    --|day          key
+    --|updatetime
+    #来自 es.rank_top100
+
+======================================================
+
+实现页面：
+	1)搜索指数---关键词
+    (根据3、4创建)
+7. AppStore_Current_Top10_All_Data
+    --|hotword
+    --|country
+    --|device
+    --|searchindex
+    --|hotword_resultcount
+    --|relatedwords        array  相关词 --> concat_ws('#$',RANKING,RELATEDWORD) --> RELATEDWORD#$RANKING
+    --|appid
+    --|appname
+    --|appimg
+    --|companyname
+    --|appRankingCategory         array   concat_ws('#$',ranking,listcategory,appcategory) -->listcategory#$appcategory#$ranking
+    --|updatetime  max(3,4)
+
+======================================================
+
+实现页面：
+	1)我的应用---查看我的应用---关键词覆盖
+8.  AppStore_App_KeyWord_Cover
+    --|appid        key
+    --|country      key
+    --|device       key
+    --|day          key
+    --|all_range_gte_8000      int
+    --|all_range_7000_7999    int
+    --|all_range_6000_6999    int
+    --|all_range_5000_5999    int
+    --|all_range_4605_4999    int
+    --|all_range_lt_4605       int
+    --|top3_range_gte_8000      int
+    --|top3_range_7000_7999    int
+    --|top3_range_6000_6999    int
+    --|top3_range_5000_5999    int
+    --|top3_range_4605_4999    int
+    --|top3_range_lt_4605       int
+    --|top10_range_gte_8000      int
+    --|top10_range_7000_7999    int
+    --|top10_range_6000_6999    int
+    --|top10_range_5000_5999    int
+    --|top10_range_4605_4999    int
+    --|top10_range_lt_4605       int
+实现页面：
+	1)我的应用---查看我的应用---关键词搜索排名
+
+======================================================
+
+9.  AppStore_App_KeyWord_Ranking
+      --|appid        key
+      --|country      key
+      --|device       key
+      --|day          key
+      --|hotword      key
+      --|hotword_ranking             int
+      --|searchindex             int
+      --|hotword_resultcount             int

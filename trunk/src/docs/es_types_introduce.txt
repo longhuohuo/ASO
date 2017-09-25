@@ -1,0 +1,180 @@
+ios系统 appstore信息存储方案
+
+数据格式
+
+1. 数据结构
+
+-------------------
+hotsearch_words:
+{
+"ranking": 3,
+"updatetime": "2016-12-22T16:31:27.334651",
+"country": "cn",
+"hotword": "制服诱惑",
+"device": "iphone",
+"resultcount": null
+}
+
+----------------------
+hotsearch_related:
+{
+"ranking": 2,
+"updatetime": "2016-12-22T16:32:22.874424",
+"searchindex": "4951",
+"country": "us",
+"hotword": "at",
+"relatedword": "at&t app",
+"device": "iphone"
+}
+
+-------------------------
+hotsearch_top100:
+{
+"app_url": "https://itunes.apple.com/jp/app/chu-huii-xichattode-wu-liaono/id1091933541?mt=8",
+"ranking": 1,
+"updatetime": "2016-12-22T16:40:42.460000",
+"valueCurrentVersion": 5,
+"copyright": "© Aisa Inc.",
+"appname": "出会い系チャットで無料の大人の出会いがあるすぐここSNS",
+"country": "jp",
+"price": 0,
+"appid": "1091933541",
+"genreNames": "ソーシャルネットワーキング,ライフスタイル",
+"value": 5,
+"ratingCountCurrentVersion": 1809,
+"artistName": "Seiji niida",
+"hotword": "マッチング",
+"ratingCount": 4547,
+"device": "iphone",
+"art_url": "http://a3.mzstatic.com/jp/r30/Purple62/v4/8e/a3/d0/8ea3d0ce-c462-555f-b4e2-d49d74a50676/icon512x512.jpeg",
+"resultcount": 2194,
+"screenshots": "http://a5.mzstatic.com/jp/r30/Purple20/v4/00/ef/ed/00efed15-b2f1-cf8a-c354-8746be5c3832/screen800x800.jpeg",
+"rid": "202eaa71c07b082562b94a18830b1459"
+}
+
+
+--------------------
+rank_top100:
+{
+"rating": 0,
+"updatetime": "2016-12-22T16:27:39.671387",
+"ranking": 11,
+"appname": "Next for iPhone - Track your expenses & finances",
+"country": "us",
+"ratingcount": 0,
+"genreNames": "Finance,Utilities",
+"appimg": "http://a2.mzstatic.com/us/r30/Purple111/v4/27/79/69/27796968-9463-65bb-df5f-bf6837494495/icon190x190.jpeg",
+"appid": 596366290,
+"device": "iphone",
+"listcategory": "付费",
+"appcategory": 6015
+}
+
+
+------------------
+app_detail:
+{
+"purchases": [{
+"offerType": {
+"accompaniesNoun": true,
+"offerType": "buy"
+},
+"price": "¥30.00",
+"buyParams": "productType=A&price=30000&salableAdamId=816805106&pricingParameters=STDQ&pg=default",
+"name": "300钻石礼包"
+}],
+"appintro": "逼真还原「纯正暗黑风」App Store℠五星推荐",
+"ratingCount": 10891,
+"screenshots": "http://a1.mzstatic.com/us/r30/Purple60/v4/51/90/8b/51908b3d-b1df-127d-550a-b2e74ba04eae/screen800x800.jpeg",
+"app_url": "https://itunes.apple.com/cn/app/hei-zhan-shenol-quan-min-zi/id750195888?mt=8",
+"requirements": "需要 iOS 6.1 或更高版本。与 iPhone、iPad 和 iPod touch 兼容。",
+"copyright": "© 4399 Corporation, All Rights Reserved.",
+"appname": "暗黑战神OL：全民自由争霸3D动作手游",
+"version": "1.18.12",
+"familyShareEnabledDate": true,
+"category": "6014",
+"contentRatingsBySystem": {
+"rank": 3,
+"advisories": [
+"偶尔/轻微的卡通或幻想暴力",
+"偶尔/轻微的色情内容或裸露",
+"偶尔/轻微的现实暴力",
+"偶尔/轻微的模拟赌博"],
+"name": "12+",
+"value": 300
+},
+"price": 0,
+"appimg": "http://a2.mzstatic.com/us/r30/Purple71/v4/dc/bd/d6/dcbdd640-234a-38ba-7576-515b1762055d/icon190x190.jpeg",
+"device": "iphone",
+"updatetime": "2016-12-22T01:45:36.533044",
+"valueCurrentVersion": 4.5,
+"language": "简体中文",
+"country": "cn",
+"companyname": "4399手机游戏",
+"genreNames": "游戏,模拟游戏,娱乐,探险游戏",
+"value": 4.5,
+"ratingCountCurrentVersion": 45,
+"appid": 750195888,
+"versionHistory": [{
+"releaseDate": "2016-10-24T01:25:42Z",
+"releaseNotes": "优化游戏中的Bug",
+"versionString": "1.18.12"
+}],
+"customersAlsoBought": [654897864]
+}
+2.字段说明
+
+字段名	字段意义
+updatetime	更新时间
+hotword	实时热搜词
+device	设备（iphone,ipad)
+country	国家
+listcategory	榜单类型，如免费，付费等
+appcategory	应用类别，如游戏等
+keyword	关键词
+searchindex	搜索指数 priority
+resultcount	搜索结果数
+ranking	排名
+searchtime	查询日期
+relatedword	相关搜索词
+appname	app名字
+app_url	APP 的url
+appimg	applogo
+companyname	app开发商
+appid	appid
+category	分类
+version	版本
+language	语言
+appintro	app简介
+versionHistory	app历史版本
+rid	elasticsearch唯一uid标识id,搜索用
+art_url	app详情页面
+artistName	作者名
+valueCurrentVersion	当前版本评分
+value	总体评分
+ratingCountCurrentVersion	当前版本评分数
+ratingCount	总体评分数
+screenshots	app界面截图
+genreNames	类别（文字表示）
+price	价格
+copyright	版权
+purchases	热门app内购买项目
+requirements	兼容
+contentRatingsBySystem	评级
+customersAlsoBought	顾客还买了
+familyShareEnabledDate	是否家庭共享
+类别映射关系
+
+GENRE = {36: u'总榜', 6000: u'商务', 6001: u'天气', 6002: u'工具', 6003: u'旅游', 6004: u'体育', 6005: u'社交', 6006: u'参考',
+         6007: u'效率', 6008: u'摄影与录像', 6009: u'新闻', 6010: u'导航', 6011: u'音乐', 6012: u'生活', 6013: u'健康健美', 6014: u'游戏',
+         6015: u'财务', 6016: u'娱乐', 6017: u'教育', 6018: u'图书', 6020: u'医疗', 6021: u'报刊杂志', 6022: u'商品指南', 6023: u'美食佳饮', 6024: u'购物',
+
+         7001: u"动作游戏", 7002: u"探险游戏", 7003: u"街机游戏", 7004: u"桌面游戏", 7005: u"扑克牌游戏", 7006: u"娱乐场游戏", 7007: u"骰子游戏",
+         7008: u"教育游戏", 7009: u"家庭游戏", 7011: u"音乐", 7012: u"智力游戏", 7013: u"赛车游戏", 7014: u"角色扮演游戏", 7015: u"模拟游戏",
+         7016: u"体育", 7017: u"策略游戏", 7018: u"小游戏", 7019: u"文字游戏",
+
+         13001: u"新闻与政治", 13002: u"流行与时尚", 13003: u"家居与园艺", 13004: u"户外与自然", 13005: u"运动与休闲", 13006: u"汽车",
+         13007: u"艺术与摄影", 13008: u"新娘与婚礼", 13009: u"商务与投资", 13010: u"儿童杂志", 13011: u"电脑与网络", 13012: u"烹饪与饮食",
+         13013: u"手工艺与爱好", 13014: u"电子产品与音响", 13015: u"娱乐", 13017: u"心理与生理", 13018: u"历史", 13019: u"文学杂志与期刊",
+         13020: u"男士兴趣", 13021: u"电影与音乐", 13023: u"子女教养与家庭", 13024: u"宠物", 13025: u"职业与技能", 13026: u"地方新闻",
+         13027: u"科学", 13028: u"青少年", 13029: u"旅游与地域", 13030: u"女士兴趣"}  # 25个总类别

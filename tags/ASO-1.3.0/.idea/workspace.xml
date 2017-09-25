@@ -1,0 +1,2107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="b4321ee2-3d85-4abc-bdb3-da9bab59070d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/donews/data/batch/CmdArg.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/donews/data/batch/CmdArg.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/donews/data/batch/Processor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/donews/data/batch/Processor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/donews/data/processor/AppRankProcessor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/donews/data/processor/AppRankProcessor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/donews/data/processor/AppSearchIndexProcessor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/donews/data/processor/AppSearchIndexProcessor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/donews/data/processor/HotWordProcessor.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/donews/data/processor/HotWordProcessor.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/donews/data/util/AsoConfig.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/donews/data/util/AsoConfig.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/com/donews/data/util/GetEsData.scala" afterPath="$PROJECT_DIR$/src/main/scala/com/donews/data/util/GetEsData.scala" />
+    </list>
+    <ignored path="AsoDataAnalysis.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="AsoDataAnalysis" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CmdArg.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/batch/CmdArg.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/docs/es_types_introduce" />
+        <option value="$PROJECT_DIR$/src/docs/run_command" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/batch/DAG.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/batch/TaskRegistry.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/util/GameConfig.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/batch/RunMain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/util/DBHelper.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/util/AsoConfig.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/util/GetEsData.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/processor/AppSearchIndexProcessor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/processor/AppRankProcessor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/processor/HotWordProcessor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/batch/Processor.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/donews/data/batch/CmdArg.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+        <option name="userSettingsFile" value="E:\company\soft\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="AsoDataAnalysis" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="AsoDataAnalysis" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GetEsData.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBHelper.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Processor.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAG.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="batch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CmdArg.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../game/trunk" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BI\programmer\AsoDataAnalysis\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.donews.data.util" />
+      <recent name="com.donews.data.processor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BI\programmer\ASO\trunk\src\main\scala\com\donews\data\util" />
+      <recent name="D:\BI\programmer\ASO\trunk\src\main\resources" />
+      <recent name="D:\BI\programmer\ASO\trunk\src\main\scala\com\donews\data\batch" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+        <PATH vcs="svn" revision="12940">D:\BI\programmer\ASO\trunk\pom.xml</PATH>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Application.AppSearchIndexProcessor">
+    <configuration default="false" name="GetEsData" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.donews.data.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.donews.data.util.GetEsData" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1 2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="AppSearchIndexProcessor" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.donews.data.processor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.donews.data.processor.AppSearchIndexProcessor" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="1 2" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AsoDataAnalysis" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.GetEsData" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AppSearchIndexProcessor" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.AppSearchIndexProcessor" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GetEsData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\BI\programmer\ASO\trunk" />
+          <option name="myCopyRoot" value="D:\BI\programmer\ASO\trunk" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\BI\programmer\ASO\trunk\.idea" />
+          <option name="myCopyRoot" value="D:\BI\programmer\ASO\trunk\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\BI\programmer\ASO\trunk" />
+          <option name="myCopyRoot" value="D:\BI\programmer\ASO\trunk" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4321ee2-3d85-4abc-bdb3-da9bab59070d" name="Default" comment="" />
+      <created>1483518223975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1483518223975</updated>
+    </task>
+    <task id="LOCAL-00001">
+      <created>1484017375256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1484017375256</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1484017491048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1484017491048</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1484017945788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484017945788</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1484018253702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484018253702</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1484018388518</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1484018388518</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1484018592107</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1484018592107</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1484030115596</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1484030115596</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1484031880472</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1484031880472</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1484036609409</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1484036609409</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1484036633267</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1484036633267</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1484037166350</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1484037166350</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1484037245910</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1484037245911</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1484037308593</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1484037308593</updated>
+    </task>
+    <task id="LOCAL-00014">
+      <created>1484037525077</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1484037525077</updated>
+    </task>
+    <task id="LOCAL-00015">
+      <created>1484040527725</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1484040527725</updated>
+    </task>
+    <task id="LOCAL-00016">
+      <created>1484040579679</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1484040579679</updated>
+    </task>
+    <task id="LOCAL-00017">
+      <created>1484043071095</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1484043071095</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1484043237241</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1484043237241</updated>
+    </task>
+    <task id="LOCAL-00019">
+      <created>1484043370040</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1484043370040</updated>
+    </task>
+    <task id="LOCAL-00020">
+      <created>1484098585730</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1484098585730</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1484098663689</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1484098663689</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1484101689361</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1484101689361</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1484105261033</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1484105261033</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14935064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14285715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16017316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/GetEsData.scala</url>
+          <line>12</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/processor/AppSearchIndexProcessor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <marker date="1484116174499" expanded="true" signature="42:3490" ph="..." />
+            <marker date="1484116174499" expanded="true" signature="144:197" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/GetEsData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="64" column="114" selection-start-line="64" selection-start-column="114" selection-end-line="64" selection-end-column="114" />
+          <folding>
+            <marker date="1484116174476" expanded="true" signature="37:182" ph="..." />
+            <marker date="1484116174476" expanded="true" signature="184:236" ph="/**...*/" />
+            <marker date="1484116174476" expanded="true" signature="306:10004" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="362:522" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="409:476" ph="(...)" />
+            <marker date="1484116174476" expanded="true" signature="594:739" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="625:686" ph="(...)" />
+            <marker date="1484116174476" expanded="true" signature="798:904" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="970:1867" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1040:1068" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1229:1427" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1450:1614" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484116174476" expanded="true" signature="1644:1743" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484116174476" expanded="true" signature="1913:10002" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1919:9998" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/GetEsData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1660">
+          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+          <folding>
+            <marker date="1484116174476" expanded="true" signature="37:182" ph="..." />
+            <marker date="1484116174476" expanded="true" signature="184:236" ph="/**...*/" />
+            <marker date="1484116174476" expanded="true" signature="306:10004" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="362:522" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="409:476" ph="(...)" />
+            <marker date="1484116174476" expanded="true" signature="594:739" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="625:686" ph="(...)" />
+            <marker date="1484116174476" expanded="true" signature="798:904" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="970:1867" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1040:1068" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1229:1427" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1450:1614" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484116174476" expanded="true" signature="1644:1743" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484116174476" expanded="true" signature="1913:10002" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1919:9998" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsoDataAnalysis.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/GetEsData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="41" selection-start-line="19" selection-start-column="3" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <marker date="1484116174476" expanded="true" signature="37:182" ph="..." />
+            <marker date="1484116174476" expanded="true" signature="184:236" ph="/**...*/" />
+            <marker date="1484116174476" expanded="true" signature="306:10004" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="362:522" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="409:476" ph="(...)" />
+            <marker date="1484116174476" expanded="true" signature="594:739" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="625:686" ph="(...)" />
+            <marker date="1484116174476" expanded="true" signature="798:904" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="970:1867" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1040:1068" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1229:1427" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1450:1614" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484116174476" expanded="true" signature="1644:1743" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484116174476" expanded="true" signature="1913:10002" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1919:9998" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.1/joda-time-2.1.jar!/org/joda/time/DateTime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.1/joda-time-2.1-sources.jar!/org/joda/time/DateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsoDataAnalysis.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1482472860515" expanded="true" signature="158:646" ph="..." />
+            <marker date="1482472860515" expanded="true" signature="229:446" ph="..." />
+            <marker date="1482472860515" expanded="true" signature="335:430" ph="..." />
+            <marker date="1482472860515" expanded="true" signature="483:527" ph="..." />
+            <marker date="1482472860515" expanded="true" signature="539:622" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/es_types_introduce" />
+    <entry file="file://$PROJECT_DIR$/src/docs/es_types_introduce.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/batch/RunMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1484104967050" expanded="true" signature="38:109" ph="..." />
+            <marker date="1484104967050" expanded="true" signature="127:1457" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="250:510" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="439:492" ph="..." />
+            <marker date="1484104967050" expanded="true" signature="666:1455" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="801:1314" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="898:1308" ph="..." />
+            <marker date="1484104967050" expanded="true" signature="1053:1133" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="1380:1450" ph="(...)" />
+            <marker date="1484104967050" expanded="true" signature="1402:1444" ph="(...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/aso_tables说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1081">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/aso建表语句.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="86" column="14" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/1.6.1/spark-core_2.11-1.6.1.jar!/org/apache/spark/SparkConf.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <marker date="1482476594407" expanded="true" signature="147:4917" ph="{...}" />
+            <marker date="1482476594407" expanded="true" signature="5001:5525" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/1.6.1/spark-core_2.11-1.6.1-sources.jar!/org/apache/spark/SparkConf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
+          <folding>
+            <marker date="1484100055711" expanded="false" signature="0:800" ph="/.../" />
+            <marker date="1484100055711" expanded="false" signature="835:1101" ph="..." />
+            <marker date="1484100055711" expanded="true" signature="1103:2086" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="2157:19153" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="2384:2541" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="2508:2537" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="2633:2878" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="2656:2712" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="2736:2805" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="2882:3082" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="3128:3165" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="3280:3317" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="3418:3580" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="3708:3737" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="3741:4010" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="4078:4131" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="4135:4390" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="4459:4538" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="4491:4525" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="4542:4658" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="4729:4770" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="4774:4847" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="4894:4927" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="5038:5102" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="5220:5325" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="5272:5312" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="5329:5500" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="5566:5900" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="5956:6103" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="6161:6304" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="6191:6291" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="6446:6605" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="6697:6736" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="6845:6918" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="7038:7086" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="7090:7278" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="7323:7368" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="7372:7513" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="7580:7639" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="7643:7841" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="7881:7921" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="7925:8076" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="8138:8192" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="8196:8380" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="8423:8466" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="8470:8607" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="8672:8729" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="8733:8816" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="8879:8942" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="8946:9138" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="9178:9218" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="9222:9367" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="9429:9483" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="9487:9679" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="9719:9759" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="9763:9908" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="9970:10024" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="10028:10220" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="10260:10300" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="10304:10449" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="10511:10565" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="10652:10726" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="10815:10893" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="11024:11085" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="11215:11277" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="11415:11479" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="11621:11686" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="11804:11965" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="12073:12432" ph="/.../" />
+            <marker date="1484100055711" expanded="true" signature="12487:12629" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="12861:12906" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="12910:13022" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="13098:13291" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="13332:18906" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="13371:13596" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="14052:14329" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="14091:14285" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484100055711" expanded="true" signature="14414:14968" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="14468:14706" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="14773:14962" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="15037:15228" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="15253:15323" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="15382:15565" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="15456:15559" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="15841:16441" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="15987:16435" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="16007:16427" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="16518:17448" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="16557:17078" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484100055711" expanded="true" signature="17173:17442" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="17213:17321" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="17327:17434" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="17493:18239" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="17532:17859" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484100055711" expanded="true" signature="17964:18233" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="18004:18112" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="18118:18225" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="18284:18902" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="18338:18896" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="18381:18800" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484100055711" expanded="true" signature="18910:19049" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="19080:19150" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="19203:26443" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="19208:19404" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="19470:20229" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="19493:20170" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="19517:19688" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="19712:19828" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="19852:20164" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="20233:20493" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="20567:22989" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="20615:20680" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="20727:20929" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="20977:21053" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="21099:21173" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="21210:21406" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="21233:21405" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="21450:21512" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="21562:21683" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="21578:21682" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="21729:21798" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="21838:21901" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="21951:22027" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22079:22152" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22201:22271" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22306:22363" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22398:22454" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22489:22545" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22583:22642" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22703:22773" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22820:22885" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22928:22983" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="22993:23209" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="23282:23425" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="23325:23415" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="23429:23613" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="23684:23972" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="24026:24279" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="24283:24378" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="24426:24523" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="24527:24649" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="24724:24971" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="24771:24967" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="24805:24961" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="24853:24953" ph="..." />
+            <marker date="1484100055711" expanded="true" signature="24975:25051" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="25101:25608" ph="{...}" />
+            <marker date="1484100055711" expanded="true" signature="25142:25336" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="25167:25330" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="25375:25604" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="25405:25598" ph="..." />
+            <marker date="1484100055711" expanded="true" signature="25415:25598" ph="(...)" />
+            <marker date="1484100055711" expanded="true" signature="25612:25894" ph="/**...*/" />
+            <marker date="1484100055711" expanded="true" signature="26013:26316" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/AsoConfig.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/aso.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/Configuration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1482472860514" expanded="true" signature="6:181" ph="{...}" />
+            <marker date="1482472860514" expanded="true" signature="16:179" ph="{...}" />
+            <marker date="1482472860514" expanded="true" signature="89:175" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <marker date="1484105238335" expanded="true" signature="89:1325" ph="..." />
+            <marker date="1484105238335" expanded="true" signature="428:1314" ph="..." />
+            <marker date="1484105238335" expanded="true" signature="449:615" ph="..." />
+            <marker date="1484105238335" expanded="true" signature="636:796" ph="..." />
+            <marker date="1484105238335" expanded="true" signature="817:957" ph="..." />
+            <marker date="1484105238335" expanded="true" signature="978:1124" ph="..." />
+            <marker date="1484105238335" expanded="true" signature="1145:1294" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/docs/run_command">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="166" selection-start-line="3" selection-start-column="160" selection-end-line="3" selection-end-column="179" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/GetEsData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1939">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1484116174476" expanded="true" signature="37:182" ph="..." />
+            <marker date="1484116174476" expanded="true" signature="184:236" ph="/**...*/" />
+            <marker date="1484116174476" expanded="true" signature="306:10004" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="362:522" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="409:476" ph="(...)" />
+            <marker date="1484116174476" expanded="true" signature="594:739" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="625:686" ph="(...)" />
+            <marker date="1484116174476" expanded="true" signature="798:904" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="970:1867" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1040:1068" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1229:1427" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1450:1614" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484116174476" expanded="true" signature="1644:1743" ph="&quot;&quot;&quot;...&quot;&quot;&quot;" />
+            <marker date="1484116174476" expanded="true" signature="1913:10002" ph="{...}" />
+            <marker date="1484116174476" expanded="true" signature="1919:9998" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/processor/AppSearchIndexProcessor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1484116174499" expanded="true" signature="42:3490" ph="..." />
+            <marker date="1484116174499" expanded="true" signature="144:197" ph="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/processor/HotWordProcessor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <marker date="1484116174523" expanded="true" signature="42:155" ph="..." />
+            <marker date="1484116174523" expanded="true" signature="157:210" ph="/**...*/" />
+            <marker date="1484116174523" expanded="true" signature="253:5529" ph="{...}" />
+            <marker date="1484116174523" expanded="true" signature="288:5527" ph="{...}" />
+            <marker date="1484116174523" expanded="true" signature="1547:1849" ph="(...)" />
+            <marker date="1484116174523" expanded="true" signature="4136:4420" ph="(...)" />
+            <marker date="1484116174523" expanded="true" signature="4842:5202" ph="(...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/batch/DAG.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="26" selection-end-line="93" selection-end-column="26" />
+          <folding>
+            <marker date="1484098578604" expanded="true" signature="38:235" ph="..." />
+            <marker date="1484098578604" expanded="true" signature="278:359" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="314:357" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="436:2204" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="771:954" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="791:949" ph="(...)" />
+            <marker date="1484098578604" expanded="true" signature="855:943" ph="(...)" />
+            <marker date="1484098578604" expanded="true" signature="1009:1186" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="1136:1182" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="1227:1285" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="1326:2202" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="1506:1991" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="1868:1972" ph="..." />
+            <marker date="1484098578604" expanded="true" signature="1997:2030" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="2065:2111" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="2137:2198" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="2217:2731" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="2253:2384" ph="(...)" />
+            <marker date="1484098578604" expanded="true" signature="2438:2542" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="2451:2538" ph="(...)" />
+            <marker date="1484098578604" expanded="true" signature="2597:2638" ph="{...}" />
+            <marker date="1484098578604" expanded="true" signature="2680:2729" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/batch/RunMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <marker date="1484104967050" expanded="true" signature="38:109" ph="..." />
+            <marker date="1484104967050" expanded="true" signature="127:1457" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="250:510" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="439:492" ph="..." />
+            <marker date="1484104967050" expanded="true" signature="666:1455" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="801:1314" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="898:1308" ph="..." />
+            <marker date="1484104967050" expanded="true" signature="1053:1133" ph="{...}" />
+            <marker date="1484104967050" expanded="true" signature="1380:1450" ph="(...)" />
+            <marker date="1484104967050" expanded="true" signature="1402:1444" ph="(...)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/batch/TaskRegistry.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <marker date="1484098578581" expanded="true" signature="38:168" ph="..." />
+            <marker date="1484098578581" expanded="true" signature="190:665" ph="{...}" />
+            <marker date="1484098578581" expanded="true" signature="357:445" ph="{...}" />
+            <marker date="1484098578581" expanded="true" signature="486:513" ph="{...}" />
+            <marker date="1484098578581" expanded="true" signature="538:615" ph="(...)" />
+            <marker date="1484098578581" expanded="true" signature="657:663" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/processor/AppRankProcessor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <marker date="1484116174562" expanded="true" signature="42:155" ph="..." />
+            <marker date="1484116174562" expanded="true" signature="157:210" ph="/**...*/" />
+            <marker date="1484116174562" expanded="true" signature="253:1297" ph="{...}" />
+            <marker date="1484116174562" expanded="true" signature="288:1295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/AsoConfig.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <marker date="1484105673942" expanded="true" signature="37:175" ph="..." />
+            <marker date="1484105673942" expanded="true" signature="194:2945" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="625:1044" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="667:1040" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="698:1034" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="1167:1343" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="1211:1339" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="1243:1333" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="1434:1483" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="1652:1904" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="1787:1855" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="2008:2250" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="2139:2203" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="2312:2576" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="2451:2518" ph="(...)" />
+            <marker date="1484105673942" expanded="true" signature="2452:2517" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="2631:2902" ph="{...}" />
+            <marker date="1484105673942" expanded="true" signature="2936:2943" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/util/DBHelper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+          <folding>
+            <marker date="1484105186575" expanded="true" signature="37:419" ph="..." />
+            <marker date="1484105186575" expanded="true" signature="539:754" ph="{...}" />
+            <marker date="1484105186575" expanded="true" signature="645:752" ph="..." />
+            <marker date="1484105186575" expanded="true" signature="656:752" ph="(...)" />
+            <marker date="1484105186575" expanded="true" signature="827:1058" ph="{...}" />
+            <marker date="1484105186575" expanded="true" signature="1252:1589" ph="{...}" />
+            <marker date="1484105186575" expanded="true" signature="1366:1587" ph="..." />
+            <marker date="1484105186575" expanded="true" signature="1385:1587" ph="(...)" />
+            <marker date="1484105186575" expanded="true" signature="1678:1984" ph="{...}" />
+            <marker date="1484105186575" expanded="true" signature="2105:2322" ph="{...}" />
+            <marker date="1484105186575" expanded="true" signature="2212:2320" ph="..." />
+            <marker date="1484105186575" expanded="true" signature="2224:2320" ph="(...)" />
+            <marker date="1484105186575" expanded="true" signature="2396:2664" ph="{...}" />
+            <marker date="1484105186575" expanded="true" signature="2683:4124" ph="{...}" />
+            <marker date="1484105186575" expanded="true" signature="3742:4017" ph="{...}" />
+            <marker date="1484105186575" expanded="true" signature="4051:4122" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/batch/Processor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="70" column="3" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
+          <folding>
+            <marker date="1484116612680" expanded="true" signature="38:305" ph="..." />
+            <marker date="1484116612680" expanded="true" signature="307:349" ph="/**...*/" />
+            <marker date="1484116612680" expanded="true" signature="372:1180" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="515:932" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="1119:1138" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="1204:1242" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="1303:1864" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="1365:1861" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="1573:1598" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="1800:1856" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="1889:2883" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="2017:2764" ph="{...}" />
+            <marker date="1484116612680" expanded="true" signature="2797:2881" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/donews/data/batch/CmdArg.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>AsoDataAnalysis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ant:ant:1.6.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

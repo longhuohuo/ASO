@@ -1,0 +1,112 @@
+实现页面：
+    1). 实时热搜词---实时热搜榜
+	2). 生成 AppStore_Base_HotWords
+
+1. AppStore_Base_HotSearch(基础表)
+    --|hotword      key
+    --|ranking
+    --|country      key
+    --|device       key
+    --|resultcount
+    --|updatetime   key
+    #来自 es.hotsearch_words
+=====================================================
+
+实现页面：
+	1). 实时热搜词---热搜词上榜总时长TOP20
+	2). 实时热搜词---Keyword上榜记录
+
+2. AppStore_Statistic_HotSearch(结果表)
+	--|hotword     key
+    --|country     key
+    --|device      key
+	--|starttime   key
+    --|endtime
+    --|duration
+    --|day         key
+    #来自 AppStore_Base_HotWords
+
+------------------------------------------------------
+实现页面：
+	1). 实时热搜词---热搜词上榜总时长TOP 20下面的那个表格
+
+3. Appstore_Hotsearch_Agrr(按时间聚合)
+    --|hotwords    key
+    --|country     key
+    --|device      key
+	--|updatetime
+    --|day
+	#来自 AppStore_Base_HotWords
+
+======================================================
+
+实现页面：
+	1)实时热搜词---当前Top10搜索结果
+
+4. AppStore_Current_Top10_App_Results
+    --|hotword     key
+    --|ranking
+    --|genreNames      类别名(mysql中的映射表)
+    --|appname
+    --|appid       key
+    --|country     key
+    --|device      key
+    --|appimg 		 applogo
+    --|companyname
+    --|updatetime
+    #来自 es.hotsearch_top100
+
+======================================================
+
+实现页面：
+	1)实时热搜词---当前Top10相关关键词(联想词表)
+
+5. AppStore_Current_Top10_Related_HotSearch
+    --|relatedword  key
+    --|hotword      key
+    --|ranking
+    --|country      key
+    --|device       key
+    --|updatetime
+    --|searchindex    搜索指数 priority
+    --|hotword_resultcount
+	#来自es.hotsearch_related    AppStore_Base_HotSearch
+
+======================================================
+
+实现页面：
+	1)APP排行
+
+6. AppStore_App_Top100
+    --|appid        key
+    --|appname
+    --|appimg   es.app_detail
+    --|ranking
+    --|country      key
+    --|device       key
+    --|listcategory key   榜单
+    --|appcategory  key   类别
+    --|companyname
+    --|day          key
+    --|updatetime
+    #来自 es.rank_top100
+
+======================================================
+
+实现页面：
+	1)搜索指数---关键词
+    (根据3、4创建)
+7. AppStore_Current_Top10_All_Data
+	--|hotword
+	--|country
+	--|device
+	--|searchindex
+	--|hotword_resultcount
+	--|relatedwords        array  相关词 --> concat_ws('#$',RELATEDWORD,RANKING) --> RELATEDWORD#$RANKING
+	--|appid
+	--|appname
+	--|appimg
+	--|companyname
+	--|appRankingCategory         array   concat_ws('#$',listcategory,appcategory,ranking) -->listcategory#$appcategory#$ranking
+	--|updatetime  max(3,4)
+
